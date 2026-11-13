@@ -1,0 +1,2406 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>P4 Fertility | Personalised Fertility Care & IVF</title>
+
+<meta name="description" content="Explore personalised fertility consultations, IVF, ICSI, IUI, diagnostics and fertility preservation with P4 Fertility in Birmingham, London and Watford.">
+<meta name="theme-color" content="#A1F0FD">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.p4fertility.co.uk/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --color-primary: #A1F0FD;
+  --color-primary-dark: #042C6C;
+  --color-primary-light: #EFFFFF;
+  --color-secondary: #DDFAFF;
+  --color-secondary-dark: #163D72;
+  --color-secondary-light: #F3FCFF;
+  --color-accent: #FF5073;
+  --color-heading: #042C6C;
+  --color-text: #243B53;
+  --color-text-muted: #62768A;
+  --color-background: #FFFFFF;
+  --color-background-alt: #F2FBFD;
+  --color-surface: #EFFFFF;
+  --color-surface-alt: #F8FAFF;
+  --color-border: #D7EAF0;
+  --color-border-strong: #A9C8D8;
+  --color-interactive: #042C6C;
+  --color-interactive-hover: #163D72;
+  --color-focus: #FF5073;
+
+  --font-heading: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --container: 1240px;
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --radius-xl: 44px;
+
+  --shadow-soft: 0 14px 45px rgba(4,44,108,.07);
+  --shadow-hover: 0 24px 65px rgba(4,44,108,.13);
+
+  --space-section: 108px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-background);
+  font-size: 17px;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+body, button, input {
+  font-family: var(--font-body);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  line-height: 1.17;
+  letter-spacing: -0.045em;
+}
+
+p {
+  line-height: 1.75;
+}
+
+.container {
+  width: min(var(--container), calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.section {
+  padding: var(--space-section) 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--color-secondary-dark);
+  margin-bottom: 22px;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 28px;
+  height: 2px;
+  background: var(--color-accent);
+}
+
+.section-heading {
+  max-width: 760px;
+  font-size: clamp(34px, 4.2vw, 53px);
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.section-description {
+  max-width: 700px;
+  color: var(--color-text-muted);
+  font-size: 18px;
+}
+
+.accent-text {
+  color: var(--color-accent);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  min-height: 56px;
+  padding: 15px 26px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: .25s ease;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary-dark);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--color-interactive-hover);
+  transform: translateY(-3px);
+}
+
+.btn-accent {
+  background: var(--color-accent);
+  color: #042C6C;
+}
+
+.btn-accent:hover {
+  transform: translateY(-3px);
+  filter: brightness(.96);
+}
+
+.btn-outline {
+  border-color: var(--color-border-strong);
+  color: var(--color-primary-dark);
+  background: white;
+}
+
+.btn-outline:hover {
+  background: var(--color-secondary);
+}
+
+.btn-light {
+  background: white;
+  color: var(--color-primary-dark);
+}
+
+.btn-light:hover {
+  transform: translateY(-3px);
+  background: var(--color-secondary);
+}
+
+.arrow {
+  font-size: 19px;
+  transition: transform .2s ease;
+}
+
+.btn:hover .arrow {
+  transform: translateX(4px);
+}
+
+/* TOP BAR */
+
+.topbar {
+  background: var(--color-primary-dark);
+  color: white;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.topbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar a {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* NAVIGATION */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,.96);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.nav-inner {
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  flex-shrink: 0;
+}
+
+.logo-symbol {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  display: grid;
+  place-items: center;
+}
+
+.logo-symbol::before,
+.logo-symbol::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 3px solid var(--color-primary-dark);
+  border-radius: 50%;
+}
+
+.logo-symbol::after {
+  width: 8px;
+  height: 8px;
+  background: var(--color-accent);
+  border: none;
+}
+
+.logo-text {
+  font-family: var(--font-heading);
+  color: var(--color-primary-dark);
+  font-size: 29px;
+  font-weight: 800;
+  letter-spacing: -.07em;
+}
+
+.logo-text small {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 9px;
+  letter-spacing: .19em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+  transition: .2s;
+}
+
+.nav-links a:hover {
+  color: var(--color-accent);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.nav-actions .btn {
+  min-height: 48px;
+  padding: 11px 20px;
+  font-size: 15px;
+}
+
+.menu-toggle {
+  display: none;
+  background: var(--color-secondary);
+  border: 0;
+  border-radius: 12px;
+  width: 46px;
+  height: 46px;
+  color: var(--color-primary-dark);
+  font-size: 25px;
+}
+
+/* HERO */
+
+.hero {
+  position: relative;
+  background:
+    radial-gradient(circle at 82% 17%, rgba(255,80,115,.15), transparent 23%),
+    radial-gradient(circle at 6% 92%, rgba(161,240,253,.6), transparent 30%),
+    linear-gradient(130deg, #EFFFFF 0%, #F8FDFF 48%, #DDFAFF 100%);
+  padding: 78px 0 85px;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "P4";
+  position: absolute;
+  right: -45px;
+  bottom: -160px;
+  font-family: var(--font-heading);
+  font-size: clamp(300px, 43vw, 590px);
+  font-weight: 800;
+  line-height: 1;
+  color: rgba(4,44,108,.035);
+  pointer-events: none;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  max-width: 620px;
+}
+
+.hero h1 {
+  font-size: clamp(44px, 5.6vw, 73px);
+  line-height: 1.08;
+  margin-bottom: 25px;
+}
+
+.hero-description {
+  font-size: 19px;
+  max-width: 570px;
+  color: #435C75;
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-bottom: 34px;
+}
+
+.hero-note {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: var(--color-secondary-dark);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.hero-note span {
+  display: grid;
+  place-items: center;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--color-primary-dark);
+}
+
+.hero-visual {
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-photo {
+  position: absolute;
+  inset: 0 0 0 35px;
+  width: calc(100% - 35px);
+  height: 490px;
+  object-fit: cover;
+  border-radius: 190px 190px 32px 32px;
+  box-shadow: var(--shadow-hover);
+}
+
+.hero-visual::before {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  top: -18px;
+  right: -18px;
+  border: 2px solid rgba(4,44,108,.18);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.hero-floating {
+  position: absolute;
+  left: 0;
+  bottom: 26px;
+  z-index: 2;
+  max-width: 235px;
+  padding: 22px;
+  background: white;
+  border-radius: 22px;
+  box-shadow: var(--shadow-hover);
+}
+
+.hero-floating strong {
+  display: block;
+  color: var(--color-primary-dark);
+  font-family: var(--font-heading);
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+.hero-floating p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--color-text-muted);
+}
+
+.hero-orbit {
+  position: absolute;
+  right: 10px;
+  bottom: -17px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  display: grid;
+  place-items: center;
+  color: var(--color-primary-dark);
+  font-size: 24px;
+  font-weight: 800;
+  z-index: 3;
+  border: 8px solid white;
+}
+
+/* INTRO STRIP */
+
+.principles-strip {
+  background: var(--color-primary-dark);
+  color: white;
+  padding: 25px 0;
+}
+
+.principles-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.principles-inner span {
+  font-family: var(--font-heading);
+  font-size: clamp(16px, 2vw, 21px);
+  font-weight: 700;
+}
+
+.principles-inner .dot {
+  color: var(--color-accent);
+  font-size: 24px;
+}
+
+/* INTRODUCTION */
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: .85fr 1.15fr;
+  gap: 85px;
+  align-items: start;
+}
+
+.intro-aside {
+  position: sticky;
+  top: 125px;
+}
+
+.intro-aside h2 {
+  font-size: clamp(34px, 4vw, 49px);
+}
+
+.intro-copy p {
+  margin-bottom: 20px;
+  color: var(--color-text-muted);
+}
+
+.intro-quote {
+  margin-top: 28px;
+  border-left: 4px solid var(--color-accent);
+  padding: 8px 0 8px 22px;
+  color: var(--color-primary-dark);
+  font-family: var(--font-heading);
+  font-size: 21px;
+  font-weight: 700;
+}
+
+/* P4 FOUR PRINCIPLES */
+
+.p4-section {
+  background: var(--color-background-alt);
+  overflow: hidden;
+}
+
+.p4-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 65px;
+}
+
+.p4-header .section-description {
+  margin: 0 auto;
+}
+
+.p4-journey {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 22px;
+  position: relative;
+}
+
+.p4-journey::before {
+  content: "";
+  position: absolute;
+  top: 49px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg,var(--color-primary),var(--color-accent));
+}
+
+.p4-item {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 12px;
+}
+
+.p4-number {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 28px;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 50%;
+  background: white;
+  font-family: var(--font-heading);
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--color-primary-dark);
+  box-shadow: 0 10px 35px rgba(4,44,108,.06);
+  transition: .3s;
+}
+
+.p4-item:hover .p4-number {
+  transform: translateY(-8px) rotate(7deg);
+  background: var(--color-primary);
+}
+
+.p4-item h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.p4-item p {
+  color: var(--color-text-muted);
+  font-size: 16px;
+}
+
+/* SIX ICONS */
+
+.services-section {
+  background: white;
+}
+
+.services-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 30px;
+  margin-bottom: 55px;
+}
+
+.services-heading > div {
+  max-width: 740px;
+}
+
+.service-icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 52px 40px;
+}
+
+.service-icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
+  min-height: 135px;
+}
+
+.icon-art {
+  flex-shrink: 0;
+  width: 76px;
+  height: 76px;
+  display: grid;
+  place-items: center;
+  border-radius: 24px 24px 24px 8px;
+  background: var(--color-secondary);
+  color: var(--color-primary-dark);
+  transition: .3s;
+}
+
+.service-icon:hover .icon-art {
+  transform: translateY(-7px) rotate(-4deg);
+  background: var(--color-primary);
+}
+
+.icon-art svg {
+  width: 39px;
+  height: 39px;
+}
+
+.service-icon h3 {
+  font-size: 21px;
+  margin: 4px 0 9px;
+}
+
+.service-icon p {
+  font-size: 16px;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+/* TREATMENT SECTION */
+
+.treatment-section {
+  background: #F2FBFD;
+}
+
+.treatment-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 35px;
+  margin-bottom: 50px;
+}
+
+.treatment-list {
+  border-top: 1px solid var(--color-border-strong);
+}
+
+.treatment-row {
+  display: grid;
+  grid-template-columns: 90px 1fr 1fr auto;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 10px;
+  border-bottom: 1px solid var(--color-border-strong);
+  transition: .25s;
+}
+
+.treatment-row:hover {
+  padding-inline: 22px;
+  background: rgba(255,255,255,.75);
+}
+
+.treatment-number {
+  font-family: var(--font-heading);
+  font-size: 27px;
+  font-weight: 800;
+  color: var(--color-accent);
+}
+
+.treatment-row h3 {
+  font-size: 23px;
+}
+
+.treatment-row p {
+  color: var(--color-text-muted);
+  font-size: 16px;
+}
+
+.treatment-arrow {
+  color: var(--color-primary-dark);
+  font-size: 27px;
+  transition: .2s;
+}
+
+.treatment-row:hover .treatment-arrow {
+  transform: translateX(6px);
+  color: var(--color-accent);
+}
+
+/* DIFFERENCE */
+
+.difference-section {
+  position: relative;
+  background: var(--color-primary-dark);
+  color: white;
+  overflow: hidden;
+}
+
+.difference-section::before {
+  content: "";
+  position: absolute;
+  right: -180px;
+  top: -230px;
+  width: 580px;
+  height: 580px;
+  border: 1px solid rgba(161,240,253,.18);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 55px rgba(161,240,253,.025),
+    0 0 0 110px rgba(161,240,253,.025);
+}
+
+.difference-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.difference-section h2 {
+  color: white;
+  font-size: clamp(36px,4.5vw,55px);
+}
+
+.difference-section .eyebrow {
+  color: var(--color-primary);
+}
+
+.difference-section p {
+  color: #D1E6F6;
+}
+
+.difference-list {
+  list-style: none;
+  margin-top: 30px;
+  display: grid;
+  gap: 18px;
+}
+
+.difference-list li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  color: white;
+  font-size: 17px;
+}
+
+.difference-list li::before {
+  content: "✓";
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-primary-dark);
+  font-weight: 800;
+}
+
+.difference-visual {
+  min-height: 450px;
+  border-radius: 45% 45% 22px 22px;
+  overflow: hidden;
+  position: relative;
+}
+
+.difference-visual img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.difference-label {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  background: white;
+  color: var(--color-primary-dark);
+  padding: 23px;
+  border-radius: 18px;
+}
+
+.difference-label strong {
+  font-family: var(--font-heading);
+  font-size: 20px;
+}
+
+/* PROCESS */
+
+.process-section {
+  background: white;
+}
+
+.process-heading {
+  text-align: center;
+  max-width: 770px;
+  margin: 0 auto 65px;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 25px;
+}
+
+.process-step {
+  position: relative;
+  padding-top: 20px;
+  border-top: 2px solid var(--color-primary);
+}
+
+.process-step span {
+  font-family: var(--font-heading);
+  font-size: 44px;
+  font-weight: 800;
+  color: var(--color-accent);
+  line-height: 1.2;
+}
+
+.process-step h3 {
+  font-size: 21px;
+  margin: 17px 0 12px;
+}
+
+.process-step p {
+  color: var(--color-text-muted);
+  font-size: 16px;
+}
+
+/* CLINICAL TEAM */
+
+.team-section {
+  background: var(--color-background-alt);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.team-member {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 25px;
+  padding: 25px;
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+.team-placeholder {
+  background: linear-gradient(145deg,var(--color-primary),var(--color-secondary));
+  min-height: 190px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  color: var(--color-primary-dark);
+  font-family: var(--font-heading);
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.team-member h3 {
+  font-size: 23px;
+  margin-bottom: 8px;
+}
+
+.team-role {
+  color: var(--color-accent);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.team-member p {
+  color: var(--color-text-muted);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* PRICING */
+
+.pricing-section {
+  background: white;
+}
+
+.pricing-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 55px;
+}
+
+.pricing-locations {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 22px;
+}
+
+.location-price {
+  padding: 32px;
+  border: 1px solid var(--color-border);
+  border-radius: 25px;
+  background: var(--color-background-alt);
+  transition: .3s;
+}
+
+.location-price:hover {
+  transform: translateY(-7px);
+  box-shadow: var(--shadow-hover);
+}
+
+.location-price h3 {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.location-price p {
+  color: var(--color-text-muted);
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.location-price a {
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.price-note {
+  margin-top: 30px;
+  padding: 23px 26px;
+  background: var(--color-secondary);
+  border-radius: 16px;
+  font-size: 15px;
+  color: var(--color-secondary-dark);
+}
+
+/* PATIENT REVIEWS */
+
+.review-section {
+  background: var(--color-secondary);
+  overflow: hidden;
+}
+
+.review-content {
+  max-width: 920px;
+  margin: auto;
+  text-align: center;
+}
+
+.review-mark {
+  font-family: Georgia, serif;
+  font-size: 95px;
+  line-height: .9;
+  color: var(--color-accent);
+}
+
+.review-content blockquote {
+  font-family: var(--font-heading);
+  font-size: clamp(22px,3vw,31px);
+  line-height: 1.55;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin: 22px 0 30px;
+}
+
+.review-content cite {
+  font-size: 16px;
+  font-style: normal;
+  color: var(--color-text-muted);
+}
+
+/* FAQ */
+
+.faq-section {
+  background: white;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 75px;
+}
+
+.faq-list {
+  border-top: 1px solid var(--color-border);
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 24px 40px 24px 0;
+  font-family: var(--font-heading);
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  position: relative;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 5px;
+  top: 17px;
+  font-size: 29px;
+  font-weight: 400;
+  color: var(--color-accent);
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+}
+
+.faq-answer {
+  padding: 0 30px 25px 0;
+  color: var(--color-text-muted);
+  font-size: 16px;
+}
+
+/* CTA */
+
+.final-cta {
+  position: relative;
+  background: var(--color-primary);
+  padding: 90px 0;
+  overflow: hidden;
+}
+
+.final-cta::before {
+  content: "";
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  right: -100px;
+  top: -210px;
+  border: 2px solid rgba(4,44,108,.12);
+  border-radius: 50%;
+}
+
+.final-cta-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.final-cta h2 {
+  max-width: 720px;
+  font-size: clamp(34px,4.5vw,55px);
+}
+
+.final-cta p {
+  margin-top: 17px;
+  color: #24456B;
+  max-width: 650px;
+  font-size: 18px;
+}
+
+/* FOOTER */
+
+.footer {
+  background: var(--color-primary-dark);
+  color: white;
+  padding: 75px 0 28px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 45px;
+  padding-bottom: 60px;
+}
+
+.footer .logo-text {
+  color: white;
+}
+
+.footer-about p {
+  margin-top: 20px;
+  color: #C5D9EB;
+  font-size: 16px;
+  max-width: 320px;
+}
+
+.footer-column h3 {
+  color: var(--color-primary);
+  font-size: 18px;
+  margin-bottom: 22px;
+  letter-spacing: 0;
+}
+
+.footer-column ul {
+  list-style: none;
+  display: grid;
+  gap: 13px;
+}
+
+.footer-column a,
+.footer-column p {
+  color: #D2E4F1;
+  font-size: 15px;
+}
+
+.footer-column a:hover {
+  color: var(--color-accent);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,.18);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #C5D9EB;
+  font-size: 14px;
+}
+
+/* MOBILE STICKY CTA */
+
+.mobile-cta {
+  display: none;
+}
+
+/* ANIMATIONS */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes gentleFloat {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.hero-orbit {
+  animation: gentleFloat 5s ease-in-out infinite;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1100px) {
+  .nav-links { gap: 16px; }
+  .nav-links a { font-size: 14px; }
+  .hero-grid { gap: 30px; }
+  .intro-grid { gap: 45px; }
+  .service-icon-grid { gap: 40px 24px; }
+  .footer-grid { grid-template-columns: repeat(2,1fr); }
+}
+
+@media(max-width:900px) {
+  :root { --space-section: 78px; }
+
+  .nav-inner { height: 76px; }
+  .menu-toggle { display: grid; place-items: center; }
+  .nav-actions { display: none; }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 76px;
+    padding: 24px;
+    background: white;
+    border-bottom: 1px solid var(--color-border);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .nav-links.active { display: flex; }
+
+  .nav-links li { border-bottom: 1px solid var(--color-border); }
+  .nav-links a { display: block; padding: 14px 5px; font-size: 17px; }
+
+  .hero-grid,
+  .intro-grid,
+  .difference-grid,
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual { min-height: 440px; }
+  .hero-photo { height: 430px; }
+  .intro-aside { position: static; }
+  .p4-journey { grid-template-columns: repeat(2,1fr); row-gap: 45px; }
+  .p4-journey::before { display: none; }
+  .service-icon-grid { grid-template-columns: repeat(2,1fr); }
+  .treatment-row { grid-template-columns: 65px 1fr auto; }
+  .treatment-row p { grid-column: 2; }
+  .treatment-arrow { grid-column: 3; grid-row: 1; }
+  .process-steps { grid-template-columns: repeat(2,1fr); row-gap: 40px; }
+  .team-grid { grid-template-columns: 1fr; }
+  .pricing-locations { grid-template-columns: 1fr; }
+  .final-cta-inner { align-items: flex-start; flex-direction: column; }
+}
+
+@media(max-width:600px) {
+  :root { --space-section: 62px; }
+
+  body { font-size: 16px; padding-bottom: 86px; }
+  .container { width: calc(100% - 36px); }
+  .topbar { font-size: 13px; }
+  .topbar-inner { justify-content: center; text-align: center; }
+  .topbar-inner span { display: none; }
+
+  .logo-text { font-size: 25px; }
+  .hero { padding: 56px 0 65px; }
+  .hero h1 { font-size: clamp(41px,11vw,54px); }
+  .hero-description { font-size: 17px; }
+  .hero-buttons { flex-direction: column; align-items: stretch; }
+  .hero-buttons .btn { width: 100%; }
+  .hero-visual { min-height: 360px; }
+  .hero-photo { height: 340px; inset: 0 0 0 15px; width: calc(100% - 15px); border-radius: 130px 130px 25px 25px; }
+  .hero-floating { max-width: 190px; padding: 15px; bottom: 12px; }
+  .hero-floating strong { font-size: 16px; }
+  .hero-floating p { font-size: 14px; }
+  .hero-orbit { width: 70px; height: 70px; font-size: 18px; right: 0; }
+
+  .principles-inner { flex-wrap: wrap; justify-content: center; gap: 8px 15px; }
+  .principles-inner span { font-size: 15px; }
+  .principles-inner .dot { display: none; }
+
+  .intro-quote { font-size: 19px; }
+
+  .p4-header { margin-bottom: 40px; }
+  .p4-journey { gap: 32px 15px; }
+  .p4-number { width: 76px; height: 76px; font-size: 24px; margin-bottom: 17px; }
+  .p4-item h3 { font-size: 19px; }
+  .p4-item p { font-size: 15px; }
+
+  .services-heading,
+  .treatment-intro {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .service-icon-grid { grid-template-columns: 1fr; gap: 30px; }
+  .service-icon { gap: 18px; min-height: 100px; }
+  .icon-art { width: 65px; height: 65px; border-radius: 20px 20px 20px 7px; }
+  .icon-art svg { width: 34px; height: 34px; }
+
+  .treatment-row {
+    grid-template-columns: 43px 1fr auto;
+    gap: 12px;
+    padding: 24px 4px;
+  }
+
+  .treatment-number { font-size: 21px; }
+  .treatment-row h3 { font-size: 19px; }
+  .treatment-row p { font-size: 15px; }
+  .treatment-arrow { font-size: 22px; }
+
+  .difference-visual,
+  .difference-visual img { min-height: 340px; height: 340px; }
+
+  .process-steps { grid-template-columns: 1fr; }
+  .process-step span { font-size: 36px; }
+
+  .team-member { grid-template-columns: 1fr; padding: 20px; }
+  .team-placeholder { min-height: 140px; }
+  .location-price { padding: 25px; }
+
+  .review-mark { font-size: 75px; }
+  .faq-item summary { font-size: 17px; }
+
+  .final-cta { padding: 65px 0; }
+  .final-cta .btn { width: 100%; }
+
+  .footer-grid { grid-template-columns: 1fr; gap: 35px; }
+  .footer-bottom { flex-direction: column; }
+
+  .mobile-cta {
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 12px 15px calc(12px + env(safe-area-inset-bottom));
+    background: white;
+    border-top: 1px solid var(--color-border);
+    box-shadow: 0 -8px 30px rgba(4,44,108,.1);
+  }
+
+  .mobile-cta a {
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+  }
+
+  .mobile-cta .mobile-call {
+    background: var(--color-secondary);
+    color: var(--color-primary-dark);
+  }
+
+  .mobile-cta .mobile-book {
+    background: var(--color-primary-dark);
+    color: white;
+  }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "P4 Fertility",
+  "url": "https://www.p4fertility.co.uk/",
+  "telephone": "+443301272550",
+  "email": "team@p4fertility.co.uk",
+  "medicalSpecialty": "Reproductive Medicine",
+  "description": "Personalised fertility consultations, diagnostics and assisted reproductive treatments.",
+  "areaServed": [
+    "Birmingham",
+    "London",
+    "Watford"
+  ],
+  "sameAs": []
+}
+</script>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span>Personalised fertility care, guided by science.</span>
+    <a href="tel:+443301272550">Speak with our team: 0330 127 2550</a>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav-inner">
+
+    <a href="#home" class="logo" aria-label="P4 Fertility home">
+      <span class="logo-symbol" aria-hidden="true"></span>
+      <span class="logo-text">
+        P4
+        <small>FERTILITY</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle"
+      id="menuToggle"
+      aria-label="Open navigation"
+      aria-expanded="false"
+      aria-controls="mainNavigation">
+      ☰
+    </button>
+
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" id="mainNavigation">
+        <li><a href="#about">About P4</a></li>
+        <li><a href="#approach">Our Approach</a></li>
+        <li><a href="#treatments">Treatments</a></li>
+        <li><a href="#team">Our Specialists</a></li>
+        <li><a href="#pricing">Costs</a></li>
+        <li><a href="#faq">FAQs</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="tel:+443301272550" class="btn btn-outline">Call Us</a>
+      <a href="https://www.p4fertility.co.uk/appointments"
+         class="btn btn-primary">Book Appointment <span class="arrow">↗</span></a>
+    </div>
+
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+
+    <div class="hero-content reveal">
+
+      <span class="eyebrow">Your journey. Your care. Your choices.</span>
+
+      <h1>
+        Fertility care that begins with <span class="accent-text">you.</span>
+      </h1>
+
+      <p class="hero-description">
+        Every fertility journey is different. At P4 Fertility,
+        we bring together reproductive medicine, personalised
+        treatment planning and compassionate support to help
+        you understand your options.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="https://www.p4fertility.co.uk/appointments"
+           class="btn btn-primary">
+          Book a Consultation <span class="arrow">↗</span>
+        </a>
+
+        <a href="#approach" class="btn btn-outline">
+          Discover the P4 Approach
+        </a>
+      </div>
+
+      <div class="hero-note">
+        <span>✓</span>
+        Consultant-led, individualised fertility care
+      </div>
+
+    </div>
+
+    <div class="hero-visual reveal">
+
+      <img
+        class="hero-photo"
+        src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1100&q=85"
+        alt="Healthcare professional providing a patient consultation"
+        fetchpriority="high"
+        onerror="this.style.display='none';">
+
+      <div class="hero-floating">
+        <strong>Care around you.</strong>
+        <p>Understand your options with individualised clinical guidance.</p>
+      </div>
+
+      <div class="hero-orbit" aria-hidden="true">P4</div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FOUR PRINCIPLES STRIP -->
+<section class="principles-strip" aria-label="The four P4 principles">
+  <div class="container principles-inner">
+    <span>Predictive</span>
+    <span class="dot">✳</span>
+    <span>Preventative</span>
+    <span class="dot">✳</span>
+    <span>Personalised</span>
+    <span class="dot">✳</span>
+    <span>Participatory</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container intro-grid">
+
+    <div class="intro-aside reveal">
+      <span class="eyebrow">A different perspective</span>
+
+      <h2>
+        Your fertility journey deserves more than a standard approach.
+      </h2>
+    </div>
+
+    <div class="intro-copy reveal">
+
+      <p>
+        Fertility care involves more than choosing a treatment.
+        It starts with understanding your individual circumstances,
+        your medical history, your concerns and the outcomes that
+        matter to you.
+      </p>
+
+      <p>
+        P4 Fertility focuses on detailed assessment and personalised
+        reproductive medicine. Our consultants use available
+        clinical information and evidence-informed approaches
+        to guide decisions about investigations and treatment.
+      </p>
+
+      <p>
+        Whether you are exploring your fertility for the first time,
+        considering IVF or seeking answers after previous treatment,
+        the first step is understanding what may be appropriate
+        for your situation.
+      </p>
+
+      <div class="intro-quote">
+        The right treatment starts with understanding the individual.
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- P4 APPROACH -->
+<section class="section p4-section" id="approach">
+  <div class="container">
+
+    <div class="p4-header reveal">
+      <span class="eyebrow">The P4 philosophy</span>
+
+      <h2 class="section-heading">
+        Four principles. One personalised approach.
+      </h2>
+
+      <p class="section-description">
+        P4 represents a way of thinking about fertility care
+        that brings prediction, prevention, personalisation
+        and patient participation together.
+      </p>
+    </div>
+
+    <div class="p4-journey">
+
+      <article class="p4-item reveal">
+        <div class="p4-number">01</div>
+        <h3>Predictive</h3>
+        <p>
+          Use available clinical information to help understand
+          potential ovarian response, treatment outcomes and risks.
+        </p>
+      </article>
+
+      <article class="p4-item reveal">
+        <div class="p4-number">02</div>
+        <h3>Preventative</h3>
+        <p>
+          Consider individual risk factors and treatment safety
+          when planning appropriate fertility care.
+        </p>
+      </article>
+
+      <article class="p4-item reveal">
+        <div class="p4-number">03</div>
+        <h3>Personalised</h3>
+        <p>
+          Adapt investigations and treatment protocols
+          to individual clinical circumstances.
+        </p>
+      </article>
+
+      <article class="p4-item reveal">
+        <div class="p4-number">04</div>
+        <h3>Participatory</h3>
+        <p>
+          Encourage informed decisions through clear discussions
+          and meaningful involvement in your care.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- SIX CUSTOM SVG ICONS -->
+<section class="section services-section" id="services">
+  <div class="container">
+
+    <div class="services-heading reveal">
+      <div>
+        <span class="eyebrow">Understanding your options</span>
+
+        <h2 class="section-heading">
+          Fertility services shaped around individual needs.
+        </h2>
+
+        <p class="section-description">
+          From initial investigations to assisted conception,
+          discover the different services available through
+          P4 Fertility.
+        </p>
+      </div>
+
+      <a href="https://www.p4fertility.co.uk/services"
+         class="btn btn-outline">
+        Explore All Services <span class="arrow">↗</span>
+      </a>
+    </div>
+
+    <div class="service-icon-grid">
+
+      <!-- ICON 1: FERTILITY CONSULTATION -->
+      <article class="service-icon reveal">
+        <div class="icon-art">
+          <svg viewBox="0 0 48 48" fill="none"
+               stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="18" cy="15" r="7"/>
+            <path d="M5 39c1-9 6-13 13-13s12 4 13 13"/>
+            <path d="M32 15h11M37.5 9.5v11"/>
+            <path d="M33 29h10M33 35h7"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Fertility Consultations</h3>
+          <p>Discuss your fertility questions, medical history and possible next steps with a specialist.</p>
+        </div>
+      </article>
+
+      <!-- ICON 2: DIAGNOSTICS -->
+      <article class="service-icon reveal">
+        <div class="icon-art">
+          <svg viewBox="0 0 48 48" fill="none"
+               stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <path d="M18 7v13l-9 15a4 4 0 0 0 3.5 6h23a4 4 0 0 0 3.5-6l-9-15V7"/>
+            <path d="M15 7h18M15 28h18"/>
+            <circle cx="22" cy="34" r="2"/>
+            <circle cx="30" cy="31" r="1.5"/>
+          </svg>
+        </div>
+        <div>
+          <h3>One-Stop Diagnostics</h3>
+          <p>Explore fertility investigations, including relevant tests and scans to inform your assessment.</p>
+        </div>
+      </article>
+
+      <!-- ICON 3: IVF -->
+      <article class="service-icon reveal">
+        <div class="icon-art">
+          <svg viewBox="0 0 48 48" fill="none"
+               stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="24" cy="24" r="16"/>
+            <circle cx="24" cy="24" r="7"/>
+            <circle cx="21" cy="22" r="1.5" fill="currentColor"/>
+            <circle cx="27" cy="25" r="1.5" fill="currentColor"/>
+            <path d="M24 2v5M24 41v5M2 24h5M41 24h5"/>
+          </svg>
+        </div>
+        <div>
+          <h3>IVF & ICSI</h3>
+          <p>Assisted reproductive treatment with individualised clinical planning and monitoring.</p>
+        </div>
+      </article>
+
+      <!-- ICON 4: RECURRENT MISCARRIAGE -->
+      <article class="service-icon reveal">
+        <div class="icon-art">
+          <svg viewBox="0 0 48 48" fill="none"
+               stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <path d="M24 41S7 30 7 17a9 9 0 0 1 17-4 9 9 0 0 1 17 4c0 13-17 24-17 24Z"/>
+            <path d="M16 25h5l3-6 4 11 3-5h4"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Recurrent Miscarriage</h3>
+          <p>Individualised investigations and evidence-informed management discussions.</p>
+        </div>
+      </article>
+
+      <!-- ICON 5: PRESERVATION -->
+      <article class="service-icon reveal">
+        <div class="icon-art">
+          <svg viewBox="0 0 48 48" fill="none"
+               stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <path d="M24 5v38M9 13l30 22M39 13 9 35"/>
+            <circle cx="24" cy="24" r="16"/>
+            <path d="M24 15v18M15 24h18"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Fertility Preservation</h3>
+          <p>Discuss egg freezing and other preservation options where clinically appropriate.</p>
+        </div>
+      </article>
+
+      <!-- ICON 6: DONOR AND SURROGACY -->
+      <article class="service-icon reveal">
+        <div class="icon-art">
+          <svg viewBox="0 0 48 48" fill="none"
+               stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="15" cy="15" r="6"/>
+            <circle cx="33" cy="15" r="6"/>
+            <path d="M4 39c0-8 4-13 11-13 4 0 7 2 9 5"/>
+            <path d="M44 39c0-8-4-13-11-13-4 0-7 2-9 5"/>
+            <path d="M18 34c3-3 6-3 9 0l-3 5h-4z"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Donor & Surrogacy Advice</h3>
+          <p>Explore relevant treatment considerations and the clinical and practical aspects of these pathways.</p>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- TREATMENTS -->
+<section class="section treatment-section" id="treatments">
+  <div class="container">
+
+    <div class="treatment-intro reveal">
+      <div>
+        <span class="eyebrow">Treatment pathways</span>
+        <h2 class="section-heading">
+          Understand the treatments available to you.
+        </h2>
+        <p class="section-description">
+          Not everyone needs the same treatment. A consultation
+          can help establish which options may be suitable
+          for your circumstances.
+        </p>
+      </div>
+
+      <a href="https://www.p4fertility.co.uk/services/iui-ivf-icsi"
+         class="btn btn-primary">
+        Explore Treatment Options <span class="arrow">↗</span>
+      </a>
+    </div>
+
+    <div class="treatment-list">
+
+      <a class="treatment-row reveal"
+         href="https://www.p4fertility.co.uk/services/iui-ivf-icsi">
+        <span class="treatment-number">01</span>
+        <h3>In Vitro Fertilisation (IVF)</h3>
+        <p>Egg collection, fertilisation and embryo transfer within an individually planned treatment cycle.</p>
+        <span class="treatment-arrow">↗</span>
+      </a>
+
+      <a class="treatment-row reveal"
+         href="https://www.p4fertility.co.uk/services/iui-ivf-icsi">
+        <span class="treatment-number">02</span>
+        <h3>ICSI Treatment</h3>
+        <p>A specialised fertilisation technique involving the injection of an individual sperm into an egg.</p>
+        <span class="treatment-arrow">↗</span>
+      </a>
+
+      <a class="treatment-row reveal"
+         href="https://www.p4fertility.co.uk/services/iui-ivf-icsi">
+        <span class="treatment-number">03</span>
+        <h3>Intrauterine Insemination (IUI)</h3>
+        <p>A treatment involving the placement of prepared sperm directly into the womb.</p>
+        <span class="treatment-arrow">↗</span>
+      </a>
+
+      <a class="treatment-row reveal"
+         href="https://www.p4fertility.co.uk/services">
+        <span class="treatment-number">04</span>
+        <h3>Egg Freezing</h3>
+        <p>Discuss fertility preservation and potential future use of stored eggs.</p>
+        <span class="treatment-arrow">↗</span>
+      </a>
+
+      <a class="treatment-row reveal"
+         href="https://www.p4fertility.co.uk/services">
+        <span class="treatment-number">05</span>
+        <h3>Fertility Investigations</h3>
+        <p>Explore relevant tests, scans and diagnostic assessments to understand your fertility.</p>
+        <span class="treatment-arrow">↗</span>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY P4 -->
+<section class="section difference-section">
+  <div class="container difference-grid">
+
+    <div class="reveal">
+      <span class="eyebrow">Why consider P4 Fertility?</span>
+
+      <h2>
+        Individual care. Thoughtful decisions. Clinical expertise.
+      </h2>
+
+      <p style="margin-top:25px">
+        Fertility treatment is personal. P4 Fertility's approach
+        places emphasis on individual assessment, consultant
+        involvement and a considered treatment plan.
+      </p>
+
+      <ul class="difference-list">
+        <li>Individualised fertility treatment planning.</li>
+        <li>Consultant-led assessment and treatment monitoring.</li>
+        <li>Evidence-informed reproductive medicine.</li>
+        <li>Clear discussions about investigations and options.</li>
+        <li>Attention to treatment costs and additional charges.</li>
+        <li>A point of access for treatment-related discussions.</li>
+      </ul>
+
+      <a href="https://www.p4fertility.co.uk/"
+         class="btn btn-light" style="margin-top:35px">
+        Discover P4 Fertility <span class="arrow">↗</span>
+      </a>
+    </div>
+
+    <div class="difference-visual reveal">
+      <img
+        src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=1000&q=85"
+        alt="Healthcare professional working in a medical environment"
+        loading="lazy"
+        onerror="this.style.display='none';">
+
+      <div class="difference-label">
+        <strong>Personalised care, not a one-size-fits-all pathway.</strong>
+        <p style="font-size:15px;margin-top:5px">
+          Your clinical circumstances help guide the conversation.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section process-section">
+  <div class="container">
+
+    <div class="process-heading reveal">
+      <span class="eyebrow">Getting started</span>
+      <h2 class="section-heading">A clearer path to understanding your fertility.</h2>
+      <p class="section-description">
+        Begin with a conversation, explore the relevant investigations
+        and understand your options with clinical guidance.
+      </p>
+    </div>
+
+    <div class="process-steps">
+
+      <article class="process-step reveal">
+        <span>01</span>
+        <h3>Book a Consultation</h3>
+        <p>Choose an appointment and discuss your questions and fertility history.</p>
+      </article>
+
+      <article class="process-step reveal">
+        <span>02</span>
+        <h3>Understand Your Results</h3>
+        <p>Discuss relevant investigations, tests and scans with your specialist.</p>
+      </article>
+
+      <article class="process-step reveal">
+        <span>03</span>
+        <h3>Explore Your Options</h3>
+        <p>Consider appropriate treatment pathways based on your clinical needs.</p>
+      </article>
+
+      <article class="process-step reveal">
+        <span>04</span>
+        <h3>Plan Your Care</h3>
+        <p>Review your treatment plan, costs and next steps with the team.</p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="section team-section" id="team">
+  <div class="container">
+
+    <span class="eyebrow reveal">Clinical expertise</span>
+
+    <h2 class="section-heading reveal">
+      Meet the specialists behind your care.
+    </h2>
+
+    <p class="section-description reveal">
+      Fertility treatment requires careful clinical assessment
+      and an understanding of individual reproductive health.
+      Meet specialists identified on P4 Fertility's published
+      clinical team pages.
+    </p>
+
+    <div class="team-grid">
+
+      <article class="team-member reveal">
+        <div class="team-placeholder" aria-label="Doctor profile initials">YJ</div>
+
+        <div>
+          <h3>Dr Yadava Jeve</h3>
+          <div class="team-role">Fertility Consultant · Birmingham</div>
+          <p>
+            Accredited subspecialist in Reproductive Medicine and
+            Surgery, with experience in fertility investigations,
+            IVF, ICSI and reproductive endocrinology.
+          </p>
+          <a href="https://www.p4fertility.co.uk/birmingham"
+             style="display:inline-block;margin-top:15px;color:#042C6C;font-weight:700">
+            Birmingham clinical team ↗
+          </a>
+        </div>
+      </article>
+
+      <article class="team-member reveal">
+        <div class="team-placeholder" aria-label="Doctor profile initials">AB</div>
+
+        <div>
+          <h3>Dr Amol Borkar</h3>
+          <div class="team-role">Consultant Gynaecologist · London</div>
+          <p>
+            Consultant with a special interest in Reproductive
+            Medicine and Gynaecology Surgery, with experience
+            in fertility investigations and treatment.
+          </p>
+          <a href="https://www.p4fertility.co.uk/london"
+             style="display:inline-block;margin-top:15px;color:#042C6C;font-weight:700">
+            London clinical team ↗
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- COSTS -->
+<section class="section pricing-section" id="pricing">
+  <div class="container">
+
+    <div class="pricing-header reveal">
+      <span class="eyebrow">Treatment costs</span>
+
+      <h2 class="section-heading">
+        Understand the costs before making a decision.
+      </h2>
+
+      <p class="section-description">
+        Fertility treatment costs depend on your location,
+        clinical requirements and prescribed medication.
+        Explore the published price information for your
+        nearest P4 Fertility location.
+      </p>
+    </div>
+
+    <div class="pricing-locations">
+
+      <article class="location-price reveal">
+        <h3>Birmingham</h3>
+        <p>
+          Explore consultation, diagnostic, IVF, ICSI and
+          other treatment costs for Birmingham.
+        </p>
+        <a href="https://www.p4fertility.co.uk/costs/birmingham">
+          View Birmingham costs ↗
+        </a>
+      </article>
+
+      <article class="location-price reveal">
+        <h3>London</h3>
+        <p>
+          Review published prices and treatment information
+          for the London location.
+        </p>
+        <a href="https://www.p4fertility.co.uk/costs/london">
+          View London costs ↗
+        </a>
+      </article>
+
+      <article class="location-price reveal">
+        <h3>Watford</h3>
+        <p>
+          Explore consultation, diagnostic and treatment
+          costs for Watford.
+        </p>
+        <a href="https://www.p4fertility.co.uk/costs/watford">
+          View Watford costs ↗
+        </a>
+      </article>
+
+    </div>
+
+    <div class="price-note reveal">
+      <strong>Important:</strong>
+      Published prices are indicative. Medication, blood tests,
+      HFEA fees and additional procedures may affect the total.
+      Ask the team for an individualised costed treatment plan
+      before proceeding.
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="section review-section">
+  <div class="container review-content reveal">
+
+    <div class="review-mark" aria-hidden="true">“</div>
+
+    <blockquote>
+      Extremely professional and caring team that made our
+      treatment stress free from start to finish. We were
+      always informed and listened to.
+    </blockquote>
+
+    <cite>
+      Patient feedback published on P4 Fertility's website · June 2023
+    </cite>
+
+    <div style="margin-top:30px">
+      <a href="https://www.p4fertility.co.uk/"
+         class="btn btn-outline">
+        Explore Patient Feedback
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq-section" id="faq">
+  <div class="container faq-grid">
+
+    <div class="reveal">
+      <span class="eyebrow">Helpful information</span>
+      <h2 class="section-heading">
+        Questions to help you take your next step.
+      </h2>
+
+      <p class="section-description">
+        Understanding fertility treatment can take time.
+        Here are some starting points to help you explore
+        your options.
+      </p>
+
+      <a href="https://www.p4fertility.co.uk/contact-us"
+         class="btn btn-primary" style="margin-top:30px">
+        Ask Our Team <span class="arrow">↗</span>
+      </a>
+    </div>
+
+    <div class="faq-list reveal">
+
+      <details class="faq-item">
+        <summary>What fertility treatments does P4 Fertility offer?</summary>
+        <div class="faq-answer">
+          P4 Fertility publishes information about IVF, ICSI,
+          IUI, fertility preservation, diagnostic assessments,
+          recurrent miscarriage management, donor treatment
+          and surrogacy consultations. Availability may vary
+          by location and should be confirmed with the team.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I arrange my first fertility consultation?</summary>
+        <div class="faq-answer">
+          You can explore available appointments through the
+          official appointment page or contact P4 Fertility
+          by telephone or email.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Does everyone need IVF to achieve pregnancy?</summary>
+        <div class="faq-answer">
+          No. Different fertility circumstances may call for
+          different investigations or treatment approaches.
+          Your consultant can discuss which options may be
+          appropriate following an individual assessment.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Are treatment costs the same at every location?</summary>
+        <div class="faq-answer">
+          No. P4 Fertility publishes separate cost information
+          for Birmingham, London and Watford. Medication,
+          investigations and other clinical requirements can
+          also affect the final cost.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can I book a virtual appointment?</summary>
+        <div class="faq-answer">
+          The official appointment information includes
+          virtual booking options for certain consultation
+          types. Check the appointment page for current
+          availability and suitability.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Where can I find information about treatment risks?</summary>
+        <div class="faq-answer">
+          Discuss the potential benefits, limitations and
+          risks of each treatment with your fertility specialist.
+          You can also consult the Human Fertilisation and
+          Embryology Authority for independent information
+          about fertility treatments and add-ons.
+        </div>
+      </details>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="container final-cta-inner">
+
+    <div class="reveal">
+      <span class="eyebrow">Your next step starts here</span>
+
+      <h2>
+        Start with a conversation. Understand your possibilities.
+      </h2>
+
+      <p>
+        Speak with P4 Fertility about your questions,
+        your circumstances and the next steps that may
+        be appropriate for you.
+      </p>
+    </div>
+
+    <a href="https://www.p4fertility.co.uk/appointments"
+       class="btn btn-primary reveal">
+      Book Your Consultation <span class="arrow">↗</span>
+    </a>
+
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div class="footer-about">
+
+        <a href="#home" class="logo" aria-label="P4 Fertility">
+          <span class="logo-symbol" aria-hidden="true"></span>
+          <span class="logo-text">
+            P4
+            <small>FERTILITY</small>
+          </span>
+        </a>
+
+        <p>
+          Personalised fertility care informed by reproductive
+          medicine, clinical assessment and individual needs.
+        </p>
+
+      </div>
+
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#about">About P4</a></li>
+          <li><a href="#approach">Our Approach</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#treatments">Treatments</a></li>
+          <li><a href="#team">Our Specialists</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Locations & Costs</h3>
+        <ul>
+          <li><a href="https://www.p4fertility.co.uk/birmingham">Birmingham</a></li>
+          <li><a href="https://www.p4fertility.co.uk/london">London</a></li>
+          <li><a href="https://www.p4fertility.co.uk/costs/watford">Watford Costs</a></li>
+          <li><a href="https://www.p4fertility.co.uk/cost-of-tests-and-treatment">Treatment Costs</a></li>
+          <li><a href="#faq">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Contact P4 Fertility</h3>
+        <ul>
+          <li><a href="tel:+443301272550">0330 127 2550</a></li>
+          <li><a href="mailto:team@p4fertility.co.uk">team@p4fertility.co.uk</a></li>
+          <li><a href="https://www.p4fertility.co.uk/contact-us">Contact Us</a></li>
+          <li><a href="https://www.p4fertility.co.uk/appointments">Book Appointment</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="currentYear"></span> P4 Fertility. All rights reserved.</span>
+      <span>
+        <a href="https://www.p4fertility.co.uk/">Official Website</a>
+        &nbsp; · &nbsp;
+        <a href="https://www.hfea.gov.uk/">HFEA Information</a>
+      </span>
+    </div>
+
+  </div>
+</footer>
+
+<!-- EXACTLY TWO MOBILE CONVERSION BUTTONS -->
+<div class="mobile-cta" aria-label="Quick contact options">
+  <a class="mobile-call" href="tel:+443301272550">
+    Call P4 Fertility
+  </a>
+
+  <a class="mobile-book"
+     href="https://www.p4fertility.co.uk/appointments">
+    Book Appointment
+  </a>
+</div>
+
+<script>
+/* MOBILE NAVIGATION */
+
+const menuToggle = document.getElementById("menuToggle");
+const mainNavigation = document.getElementById("mainNavigation");
+
+menuToggle.addEventListener("click", () => {
+  const isOpen = mainNavigation.classList.toggle("active");
+
+  menuToggle.setAttribute("aria-expanded", String(isOpen));
+  menuToggle.setAttribute(
+    "aria-label",
+    isOpen ? "Close navigation" : "Open navigation"
+  );
+
+  menuToggle.textContent = isOpen ? "×" : "☰";
+});
+
+mainNavigation.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    mainNavigation.classList.remove("active");
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.setAttribute("aria-label", "Open navigation");
+    menuToggle.textContent = "☰";
+  });
+});
+
+/* CURRENT YEAR */
+
+document.getElementById("currentYear").textContent =
+  new Date().getFullYear();
+
+/* SCROLL REVEAL */
+
+const revealElements = document.querySelectorAll(".reveal");
+
+if ("IntersectionObserver" in window) {
+
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.12
+  });
+
+  revealElements.forEach(element => {
+    revealObserver.observe(element);
+  });
+
+} else {
+  revealElements.forEach(element => {
+    element.classList.add("visible");
+  });
+}
+
+/* FAQ: KEEP ONE ANSWER OPEN AT A TIME */
+
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach(item => {
+  item.addEventListener("toggle", () => {
+    if (item.open) {
+      faqItems.forEach(otherItem => {
+        if (otherItem !== item) {
+          otherItem.open = false;
+        }
+      });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
